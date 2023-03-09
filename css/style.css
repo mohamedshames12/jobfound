@@ -592,6 +592,115 @@ footer{
     color: #ccc;
 }
 
+.contact-us{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box-contact-us{
+    display: flex;
+}
+
+.image-contact-us{
+    flex: 1;
+}
+
+.image-contact-us img {
+    height: 30rem;
+}
+
+.box-contact-us form {
+    flex: 1;
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.box-contact-us form  input {
+    height: 30px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background: #eee;
+    margin-bottom: 1rem;
+}
+
+.box-contact-us form span {
+    color: #d62828;
+}
+
+.box-contact-us form textarea {
+    resize: none;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10rem auto;
+    border: 1px solid #d62828;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #df8282;
+    color: red;
+    text-transform: uppercase;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container-register{
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 400px;
+    background-color: #fff;
+}
+.container-register h1 {
+    margin-bottom: 1rem;
+    color: #2a9d8f;
+    text-transform: uppercase;
+}
+
+.container-register form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 35px;
+    padding: .5rem;
+    border-radius: 5px;
+    background: #eee;
+    border: 1px solid #000;
+}
+.container-register form p {
+    margin-top: .5rem;
+    color: #ccc;
+}
+
+.container-register form a {
+    font-size: .9rem;
+    color: #0f6bae;
+}
+
+.container-register form a:hover{
+    text-decoration: underline;
+}
 
 @media (max-width: 768px) {
 
@@ -632,4 +741,21 @@ footer{
         margin-bottom: 1rem;
     }
 
+    .box-contact-us{
+        display: block;
+    }
+
+    .image-contact-us img {
+        height: 20rem;
+        display: flex;
+        margin: auto;
+    }
+
+    .message{
+        font-size: 1rem;
+    }
+
+    .container-register{
+        width: 350px;
+    }
 }
